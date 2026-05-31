@@ -1,0 +1,82 @@
+const packSeries = {
+    "series-1": {
+        name: "Series 1",
+        packTypes: {
+        regular: {
+            probability: 0.9995,
+            slots: [
+                { oneDiamond: 1.0 },
+                { oneDiamond: 1.0 },
+                { oneDiamond: 1.0 },
+                {
+                    crown: 0.0004,
+                    threeStar: 0.00222,
+                    twoStar: 0.005,
+                    oneStar: 0.02572,
+                    fourDiamond: 0.01666,
+                    threeDiamond: 0.05,
+                    twoDiamond: 0.90,
+                },
+                {
+                    crown: 0.0016,
+                    threeStar: 0.00888,
+                    twoStar: 0.02,
+                    oneStar: 0.10288,
+                    fourDiamond: 0.06664,
+                    threeDiamond: 0.20,
+                    twoDiamond: 0.60,
+                },
+            ],
+        },
+        rare: {
+            probability: 0.0005,
+            slots: [
+                { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
+                { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
+                { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
+                { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
+                { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
+            ],
+        },
+        },
+        cards: [
+            "pikachu-1",
+            "charizard-1",
+            "mewtwo-1",
+            "energy-grass",
+            "energy-fire",
+        ],
+    },
+    "series-2": {
+        name: "Series 2",
+        slotOdds: {
+            oneDiamond: 0.70,
+            twoDiamond: 0.20,
+            threeDiamond: 0.08,
+            fourDiamond: 0.015,
+            oneStar: 0.005,
+            twoStar: 0.00,
+            threeStar: 0.00,
+            shiny: 0.00,
+            shinyDouble: 0.00,
+            crown: 0.00,
+        },
+        cards: ["blastoise-2", "venusaur-2", "dragonite-2", "energy-water", "energy-electric"],
+    },
+    "series-3": {
+        name: "Series 3",
+        slotOdds: {
+            oneDiamond: 0.70,
+            twoDiamond: 0.20,
+            threeDiamond: 0.08,
+            fourDiamond: 0.015,
+            oneStar: 0.005,
+            twoStar: 0.00,
+            threeStar: 0.00,
+            shiny: 0.00,
+            shinyDouble: 0.00,
+            crown: 0.00,
+        },
+        cards: ["alakazam-3", "machamp-3", "golem-3", "energy-psychic", "energy-fighting"],
+    },
+};
