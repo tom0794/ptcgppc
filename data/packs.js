@@ -1,6 +1,6 @@
 const packSeries = {
-    "series-1": {
-        name: "Series 1",
+    "a1c": {
+        name: "Genetic Apex (Charizard) (A1)",
         packTypes: {
             regular: {
                 probability: 0.9995,
