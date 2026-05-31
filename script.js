@@ -16,12 +16,10 @@ const rarityNames = {
 };
 
 function buildRarityCardCounts(seriesKey) {
-    if (!packSeries[seriesKey]) return {};
-    
-    const series = packSeries[seriesKey];
+    const cards = getCardsForSeries(seriesKey);
     const counts = {};
     
-    series.cards.forEach((cardId) => {
+    cards.forEach((cardId) => {
         const card = cardDatabase[cardId];
         if (card) {
             counts[card.rarity] = (counts[card.rarity] || 0) + 1;
@@ -44,12 +42,18 @@ function calculateCardPullOdds(seriesKey, cardId) {
 
     for (const [packType, packData] of Object.entries(series.packTypes)) {
         const packProb = packData.probability;
-
+        
+        // Calculate P(at least one of this card in this pack type)
+        let noCardProb = 1;
+        
         for (const slot of packData.slots) {
             const rarityOdds = slot[card.rarity] || 0;
             const slotCardOdds = rarityOdds * cardProb;
-            totalOdds += packProb * slotCardOdds;
+            noCardProb *= (1 - slotCardOdds);
         }
+        
+        const atLeastOneProb = 1 - noCardProb;
+        totalOdds += packProb * atLeastOneProb;
     }
 
     return totalOdds;
@@ -65,24 +69,30 @@ function calculateAtLeastOne(slotOdds) {
   return 1 - noCardsProb;
 }
 
+function getCardsForSeries(seriesKey) {
+    return Object.keys(cardDatabase).filter((cardId) => {
+        return cardDatabase[cardId].series === seriesKey;
+    });
+}
+
 function populateCardDropdown() {
-  const seriesKey = packSeriesSelect.value;
-  cardSelect.innerHTML = '<option value="">-- Choose a card --</option>';
+    const seriesKey = packSeriesSelect.value;
+    cardSelect.innerHTML = '<option value="">-- Choose a card --</option>';
 
-  if (!seriesKey || !packSeries[seriesKey]) {
-    return;
-  }
-
-  const series = packSeries[seriesKey];
-  series.cards.forEach((cardId) => {
-    const card = cardDatabase[cardId];
-    if (card) {
-      const option = document.createElement("option");
-      option.value = cardId;
-      option.textContent = card.name;
-      cardSelect.appendChild(option);
+    if (!seriesKey || !packSeries[seriesKey]) {
+        return;
     }
-  });
+
+    const cards = getCardsForSeries(seriesKey);
+    cards.forEach((cardId) => {
+        const card = cardDatabase[cardId];
+        if (card) {
+            const option = document.createElement("option");
+            option.value = cardId;
+            option.textContent = card.name;
+            cardSelect.appendChild(option);
+        }
+    });
 }
 
 function updateResult() {
