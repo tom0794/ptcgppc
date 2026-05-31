@@ -22,10 +22,16 @@
       </label>
 
       <label>
-        Select card
-        <select id="card-select">
-          <option value="">-- Choose a card --</option>
-        </select>
+          Select card
+          <div class="card-select-wrapper">
+              <input 
+                  type="text" 
+                  id="card-search" 
+                  placeholder="Search cards..." 
+                  autocomplete="off"
+              />
+              <ul id="card-dropdown" class="card-dropdown"></ul>
+          </div>
       </label>
     </section>
 

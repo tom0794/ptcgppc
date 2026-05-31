@@ -75,29 +75,110 @@ function getCardsForSeries(seriesKey) {
     });
 }
 
+const cardSearch = document.getElementById("card-search");
+const cardDropdown = document.getElementById("card-dropdown");
+let filteredCards = [];
+let selectedCardIndex = -1;
+
 function populateCardDropdown() {
     const seriesKey = packSeriesSelect.value;
-    cardSelect.innerHTML = '<option value="">-- Choose a card --</option>';
-
+    cardSearch.value = "";
+    cardDropdown.innerHTML = "";
+    filteredCards = [];
+    
     if (!seriesKey || !packSeries[seriesKey]) {
+        cardDropdown.classList.remove("open");
         return;
     }
 
     const cards = getCardsForSeries(seriesKey);
-    cards.forEach((cardId) => {
+    filteredCards = cards;
+    renderCardOptions(cards);
+}
+
+function renderCardOptions(cards) {
+    cardDropdown.innerHTML = "";
+    
+    if (cards.length === 0) {
+        cardDropdown.classList.remove("open");
+        return;
+    }
+    
+    cards.forEach((cardId, index) => {
         const card = cardDatabase[cardId];
         if (card) {
-            const option = document.createElement("option");
-            option.value = cardId;
-            option.textContent = card.name;
-            cardSelect.appendChild(option);
+            const li = document.createElement("li");
+            li.textContent = card.name;
+            li.dataset.cardId = cardId;
+            li.addEventListener("click", () => selectCard(cardId));
+            cardDropdown.appendChild(li);
         }
+    });
+    
+    cardDropdown.classList.add("open");
+    selectedCardIndex = -1;
+}
+
+function selectCard(cardId) {
+    cardSearch.value = cardDatabase[cardId].name;
+    cardDropdown.classList.remove("open");
+    updateResult(cardId);
+}
+
+cardSearch.addEventListener("focus", () => {
+    if (filteredCards.length > 0) {
+        renderCardOptions(filteredCards);
+    }
+});
+
+cardSearch.addEventListener("input", (e) => {
+    const query = e.target.value.toLowerCase();
+    
+    if (!query) {
+        const seriesKey = packSeriesSelect.value;
+        const cards = getCardsForSeries(seriesKey);
+        filteredCards = cards;
+        renderCardOptions(cards);
+        return;
+    }
+    
+    const seriesKey = packSeriesSelect.value;
+    const cards = getCardsForSeries(seriesKey);
+    filteredCards = cards.filter((cardId) => {
+        return cardDatabase[cardId].name.toLowerCase().includes(query);
+    });
+    
+    renderCardOptions(filteredCards);
+});
+
+cardSearch.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowDown") {
+        selectedCardIndex = Math.min(selectedCardIndex + 1, filteredCards.length - 1);
+        updateSelection();
+    } else if (e.key === "ArrowUp") {
+        selectedCardIndex = Math.max(selectedCardIndex - 1, -1);
+        updateSelection();
+    } else if (e.key === "Enter" && selectedCardIndex !== -1) {
+        selectCard(filteredCards[selectedCardIndex]);
+    }
+});
+
+function updateSelection() {
+    const items = cardDropdown.querySelectorAll("li");
+    items.forEach((li, index) => {
+        li.classList.toggle("active", index === selectedCardIndex);
     });
 }
 
-function updateResult() {
+document.addEventListener("click", (e) => {
+    if (!e.target.closest(".card-select-wrapper")) {
+        cardDropdown.classList.remove("open");
+    }
+});
+
+function updateResult(overrideCardId) {
     const seriesKey = packSeriesSelect.value;
-    const cardId = cardSelect.value;
+    const cardId = overrideCardId || null;
 
     if (!seriesKey || !packSeries[seriesKey]) {
         resultContainer.innerHTML =
@@ -192,9 +273,7 @@ function updateResult() {
 }
 
 packSeriesSelect.addEventListener("change", () => {
-  populateCardDropdown();
-  cardSelect.value = "";
-  updateResult();
+    populateCardDropdown();
+    cardSearch.value = "";
+    updateResult();
 });
-
-cardSelect.addEventListener("change", updateResult);
