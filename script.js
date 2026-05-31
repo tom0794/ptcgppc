@@ -108,7 +108,7 @@ function renderCardOptions(cards) {
         const card = cardDatabase[cardId];
         if (card) {
             const li = document.createElement("li");
-            li.textContent = card.name;
+            li.textContent = `${rarityNames[card.rarity]} ${card.name}`;
             li.dataset.cardId = cardId;
             li.addEventListener("click", () => selectCard(cardId));
             cardDropdown.appendChild(li);
@@ -120,7 +120,7 @@ function renderCardOptions(cards) {
 }
 
 function selectCard(cardId) {
-    cardSearch.value = cardDatabase[cardId].name;
+    cardSearch.value = `${rarityNames[cardDatabase[cardId].rarity]} ${cardDatabase[cardId].name}`;
     cardDropdown.classList.remove("open");
     updateResult(cardId);
 }
