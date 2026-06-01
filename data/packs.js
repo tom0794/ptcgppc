@@ -154,11 +154,11 @@ const packSeries = {
             rare: {
                 probability: 0.0005,
                 slots: [
-                    { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
-                    { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
-                    { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
-                    { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
-                    { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
                 ],
             },
         }
