@@ -224,10 +224,11 @@ function updateResult(overrideCardId) {
 
     if (selectedCard) {
         const cardOdds = calculateCardPullOdds(seriesKey, cardId);
+        const numPacksEstimate = cardOdds > 0 ? Math.ceil(1 / cardOdds) : "N/A";
         html += `
             <div class="card-odds">
                 <p><strong>${selectedCard.name}</strong> is a ${rarityNames[selectedCard.rarity] || selectedCard.rarity}</p>
-                <p>Chance of pulling this card: <strong>${formatPercent(cardOdds)}</strong></p>
+                <p>Chance of pulling this card: <strong>${formatPercent(cardOdds)} (roughly 1 in ${numPacksEstimate} packs)</strong></p>
             </div>
         `;
     }
