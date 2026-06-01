@@ -287,3 +287,29 @@ packSeriesSelect.addEventListener("change", () => {
 
 // initial render (if desired)
 updateResult();
+
+// Clear UI selections on load / when page is restored from BF cache
+function clearSelectionsOnLoad() {
+    const pack = document.getElementById("pack-series-select");
+    const cardInput = document.getElementById("card-search");
+
+    if (pack) pack.selectedIndex = 0;
+    if (cardInput) cardInput.value = "";
+
+    // close dropdown if open
+    if (window.cardDropdown) window.cardDropdown.classList.remove("open");
+    // if you store selection in localStorage, clear it here:
+    // localStorage.removeItem("selectedPack");
+    // localStorage.removeItem("selectedCardId");
+
+    // re-render
+    updateResult();
+}
+
+// Normal load
+window.addEventListener("DOMContentLoaded", clearSelectionsOnLoad);
+
+// Handle Back/Forward cache restore (browsers may restore form state)
+window.addEventListener("pageshow", (e) => {
+    if (e.persisted) clearSelectionsOnLoad();
+});
