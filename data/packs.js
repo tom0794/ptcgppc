@@ -163,4 +163,86 @@ const packSeries = {
             },
         }
     },
+    "a2d": {
+        name: "Space-Time Smackdown (Dialga) (A2)",
+        packTypes: {
+            regular: {
+                probability: 0.9995,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01666,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.90,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00888,
+                        twoStar: 0.02,
+                        oneStar: 0.10288,
+                        fourDiamond: 0.06664,
+                        threeDiamond: 0.20,
+                        twoDiamond: 0.60,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                ],
+            },
+        }
+    },
+    "a2p": {
+        name: "Space-Time Smackdown (Palkia) (A2)",
+        packTypes: {
+            regular: {
+                probability: 0.9995,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01666,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.90,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00888,
+                        twoStar: 0.02,
+                        oneStar: 0.10288,
+                        fourDiamond: 0.06664,
+                        threeDiamond: 0.20,
+                        twoDiamond: 0.60,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                ],
+            },
+        }
+    },
 };

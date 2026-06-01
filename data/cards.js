@@ -3,6 +3,8 @@ const setsByKey = {
     a1m: a1m,
     a1p: a1p,
     a1a: a1a,
+    a2d: a2d,
+    a2p: a2p,
     // add more sets here
 };
 
