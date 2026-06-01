@@ -535,7 +535,7 @@ const a1m = {
   },
   "198": {
     "number": "198",
-    "name": "Farfetch&#039;d",
+    "name": "Farfetch'd",
     "rarity": "oneDiamond",
     "series": "a1m"
   },
