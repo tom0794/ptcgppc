@@ -41,9 +41,9 @@ const rarityOrder = [
 // -----------------------------
 // Get card IDs for a given series key (cardDatabase expected to have `series` field)
 function getCardsForSeries(seriesKey) {
-    return Object.keys(cardDatabase).filter((cardId) => {
-        return cardDatabase[cardId].series === seriesKey;
-    });
+    return Object.keys(cardDatabase)
+        .filter((cardId) => cardDatabase[cardId].series === seriesKey)
+        .sort((a, b) => Number(cardDatabase[a].number) - Number(cardDatabase[b].number));
 }
 
 // Build counts of how many cards exist per rarity for a series
