@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pokémon TCGP Pack Odds Calculator</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="/images/favicon.png" sizes="any"
 </head>
 <body>
   <main>
@@ -15,17 +16,23 @@
         Select pack series
         <select id="pack-series-select">
           <option value="">-- Choose a pack --</option>
-          <option value="series-1">Series 1</option>
-          <option value="series-2">Series 2</option>
-          <option value="series-3">Series 3</option>
+          <option value="a1c">Genetic Apex (Charizard) (A1)</option>
+          <option value="a1m">Genetic Apex (Mewtwo) (A1)</option>
+          <option value="a1p">Genetic Apex (Pikachu) (A1)</option>
         </select>
       </label>
 
       <label>
-        Select card
-        <select id="card-select">
-          <option value="">-- Choose a card --</option>
-        </select>
+          Select card
+          <div class="card-select-wrapper">
+              <input 
+                  type="text" 
+                  id="card-search" 
+                  placeholder="Search cards..." 
+                  autocomplete="off"
+              />
+              <ul id="card-dropdown" class="card-dropdown"></ul>
+          </div>
       </label>
     </section>
 
@@ -37,6 +44,11 @@
     </section>
   </main>
 
-  <script src="script.js"></script>
+<script src="data/packs.js"></script>
+<script src="data/sets/a1c.js"></script>
+<script src="data/sets/a1m.js"></script>
+<script src="data/sets/a1p.js"></script>
+<script src="data/cards.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

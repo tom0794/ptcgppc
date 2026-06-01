@@ -176,3 +176,66 @@ select:focus {
     padding: 1.5rem;
   }
 }
+
+/* card dropdown */
+.card-select-wrapper {
+    position: relative;
+    max-width: 320px;
+}
+
+#card-search {
+    width: 100%;
+    padding: 0.95rem 1.2rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 16px;
+    background: white;
+    color: #1a1a2e;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#card-search:hover {
+    border-color: #cbd5e0;
+    box-shadow: 0 4px 12px rgba(123, 104, 238, 0.1);
+}
+
+#card-search:focus {
+    border-color: #7b68ee;
+    box-shadow: 0 0 0 3px rgba(123, 104, 238, 0.1);
+}
+
+.card-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-top: none;
+    border-radius: 0 0 16px 16px;
+    max-height: 200px;
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-dropdown.open {
+    display: block;
+}
+
+.card-dropdown li {
+    padding: 0.75rem 1.2rem;
+    cursor: pointer;
+    color: #1a1a2e;
+}
+
+.card-dropdown li:hover,
+.card-dropdown li.active {
+    background: #f0e8ff;
+    color: #7b68ee;
+}
