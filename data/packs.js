@@ -72,11 +72,11 @@ const packSeries = {
             rare: {
                 probability: 0.0005,
                 slots: [
-                    { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
-                    { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
-                    { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
-                    { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
-                    { crown: 0.05, threeStar: 0.05, twoStar: 0.5, oneStar: 0.4 },
+                    { crown: 0.05263, threeStar: 0.05263, twoStar: 0.47368, oneStar: 0.42105 },
+                    { crown: 0.05263, threeStar: 0.05263, twoStar: 0.47368, oneStar: 0.42105 },
+                    { crown: 0.05263, threeStar: 0.05263, twoStar: 0.47368, oneStar: 0.42105 },
+                    { crown: 0.05263, threeStar: 0.05263, twoStar: 0.47368, oneStar: 0.42105 },
+                    { crown: 0.05263, threeStar: 0.05263, twoStar: 0.47368, oneStar: 0.42105 },
                 ],
             },
         }
@@ -196,10 +196,10 @@ const packSeries = {
                 probability: 0.0005,
                 slots: [
                     { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
-                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
-                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
-                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
-                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
+                    { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
+                    { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
+                    { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
                 ],
             },
         }
@@ -237,10 +237,10 @@ const packSeries = {
                 probability: 0.0005,
                 slots: [
                     { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
-                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
-                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
-                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
-                    { crown: 0.055555, threeStar: 0.055555, twoStar: 0.555555, oneStar: 0.33333 },
+                    { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
+                    { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
+                    { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
+                    { crown: 0.03846, threeStar: 0.03846, twoStar: 0.46153, oneStar: 0.46153 },
                 ],
             },
         }
