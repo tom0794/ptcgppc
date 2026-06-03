@@ -5,6 +5,8 @@ const setsByKey = {
     a1a: a1a,
     a2d: a2d,
     a2p: a2p,
+    a2a: a2a,
+    a2b: a2b,
     // add more sets here
 };
 
