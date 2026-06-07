@@ -683,4 +683,90 @@ const packSeries = {
             }
         }
     },
+    "a4a": {
+        name: "Secluded Springs (A4a)",
+        packTypes: {
+            regular: {
+                probability: 0.91620,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        shinyDouble: 0.00333,
+                        shiny: 0.00714,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01666,
+                        threeDiamond: 0.04952,
+                        twoDiamond: 0.89,
+                    },
+                    {
+                        crown: 0.0016,
+                        shinyDouble: 0.01333,
+                        shiny: 0.02857,
+                        threeStar: 0.00888,
+                        twoStar: 0.02,
+                        oneStar: 0.10288,
+                        fourDiamond: 0.06664,
+                        threeDiamond: 0.1981,
+                        twoDiamond: 0.56,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.03030, shinyDouble: 0.12121, shiny: 0.30303, threeStar: 0.03030, twoStar: 0.36363, oneStar: 0.15151 },
+                    { crown: 0.03030, shinyDouble: 0.12121, shiny: 0.30303, threeStar: 0.03030, twoStar: 0.36363, oneStar: 0.15151 },
+                    { crown: 0.03030, shinyDouble: 0.12121, shiny: 0.30303, threeStar: 0.03030, twoStar: 0.36363, oneStar: 0.15151 },
+                    { crown: 0.03030, shinyDouble: 0.12121, shiny: 0.30303, threeStar: 0.03030, twoStar: 0.36363, oneStar: 0.15151 },
+                    { crown: 0.03030, shinyDouble: 0.12121, shiny: 0.30303, threeStar: 0.03030, twoStar: 0.36363, oneStar: 0.15151 },
+                ],
+            },
+            shiny: {
+                probability: 0.0833,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        shinyDouble: 0.00333,
+                        shiny: 0.00714,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01666,
+                        threeDiamond: 0.04952,
+                        twoDiamond: 0.89,
+                    },
+                    {
+                        crown: 0.0016,
+                        shinyDouble: 0.01333,
+                        shiny: 0.02857,
+                        threeStar: 0.00888,
+                        twoStar: 0.02,
+                        oneStar: 0.10288,
+                        fourDiamond: 0.06664,
+                        threeDiamond: 0.1981,
+                        twoDiamond: 0.56,
+                    },
+                    // Sixth card - specific cards only
+                    {
+                        oneStar: {
+                            "Azurill": 0.129,
+                        },
+                        threeDiamond: {
+                            "Mantyke": 0.29033,
+                            "Igglybuff": 0.29033,
+                            "Azurill": 0.29033,
+                        },
+                    }
+                ]
+            }
+        }
+    },
 };
