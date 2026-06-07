@@ -421,4 +421,266 @@ const packSeries = {
             },
         }
     },
+    "a3a": {
+        name: "Extradimensional Crisis (A3a)",
+        packTypes: {
+            regular: {
+                probability: 0.9995,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        shinyDouble: 0.00333,
+                        shiny: 0.00714,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01666,
+                        threeDiamond: 0.04952,
+                        twoDiamond: 0.89,
+                    },
+                    {
+                        crown: 0.0016,
+                        shinyDouble: 0.01333,
+                        shiny: 0.02857,
+                        threeStar: 0.00888,
+                        twoStar: 0.02,
+                        oneStar: 0.10288,
+                        fourDiamond: 0.06664,
+                        threeDiamond: 0.1981,
+                        twoDiamond: 0.56,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.02941, shinyDouble: 0.11764, shiny: 0.29411, threeStar: 0.02941, twoStar: 0.35294, oneStar: 0.17647 },
+                    { crown: 0.02941, shinyDouble: 0.11764, shiny: 0.29411, threeStar: 0.02941, twoStar: 0.35294, oneStar: 0.17647 },
+                    { crown: 0.02941, shinyDouble: 0.11764, shiny: 0.29411, threeStar: 0.02941, twoStar: 0.35294, oneStar: 0.17647 },
+                    { crown: 0.02941, shinyDouble: 0.11764, shiny: 0.29411, threeStar: 0.02941, twoStar: 0.35294, oneStar: 0.17647 },
+                    { crown: 0.02941, shinyDouble: 0.11764, shiny: 0.29411, threeStar: 0.02941, twoStar: 0.35294, oneStar: 0.17647 },
+                ],
+            },
+        }
+    },
+    "a3b": {
+        name: "Eevee Grove (A3b)",
+        packTypes: {
+            regular: {
+                probability: 0.9995,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        shinyDouble: 0.00333,
+                        shiny: 0.00714,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01666,
+                        threeDiamond: 0.04952,
+                        twoDiamond: 0.89,
+                    },
+                    {
+                        crown: 0.0016,
+                        shinyDouble: 0.01333,
+                        shiny: 0.02857,
+                        threeStar: 0.00888,
+                        twoStar: 0.02,
+                        oneStar: 0.10288,
+                        fourDiamond: 0.06664,
+                        threeDiamond: 0.1981,
+                        twoDiamond: 0.56,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.02631, shinyDouble: 0.10526, shiny: 0.26315, threeStar: 0.02631, twoStar: 0.34210, oneStar: 0.23684 },
+                    { crown: 0.02631, shinyDouble: 0.10526, shiny: 0.26315, threeStar: 0.02631, twoStar: 0.34210, oneStar: 0.23684 },
+                    { crown: 0.02631, shinyDouble: 0.10526, shiny: 0.26315, threeStar: 0.02631, twoStar: 0.34210, oneStar: 0.23684 },
+                    { crown: 0.02631, shinyDouble: 0.10526, shiny: 0.26315, threeStar: 0.02631, twoStar: 0.34210, oneStar: 0.23684 },
+                    { crown: 0.02631, shinyDouble: 0.10526, shiny: 0.26315, threeStar: 0.02631, twoStar: 0.34210, oneStar: 0.23684 },
+                ],
+            },
+        }
+    },
+    "a4h": {
+        name: "Wisdom of Sea and Sky (Ho-oh) (A4)",
+        packTypes: {
+            regular: {
+                probability: 0.91620,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        shinyDouble: 0.00333,
+                        shiny: 0.00714,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01666,
+                        threeDiamond: 0.04952,
+                        twoDiamond: 0.89,
+                    },
+                    {
+                        crown: 0.0016,
+                        shinyDouble: 0.01333,
+                        shiny: 0.02857,
+                        threeStar: 0.00888,
+                        twoStar: 0.02,
+                        oneStar: 0.10288,
+                        fourDiamond: 0.06664,
+                        threeDiamond: 0.1981,
+                        twoDiamond: 0.56,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.02564, shinyDouble: 0.10256, shiny: 0.25641, threeStar: 0.02564, twoStar: 0.30769, oneStar: 0.28205 },
+                    { crown: 0.02564, shinyDouble: 0.10256, shiny: 0.25641, threeStar: 0.02564, twoStar: 0.30769, oneStar: 0.28205 },
+                    { crown: 0.02564, shinyDouble: 0.10256, shiny: 0.25641, threeStar: 0.02564, twoStar: 0.30769, oneStar: 0.28205 },
+                    { crown: 0.02564, shinyDouble: 0.10256, shiny: 0.25641, threeStar: 0.02564, twoStar: 0.30769, oneStar: 0.28205 },
+                    { crown: 0.02564, shinyDouble: 0.10256, shiny: 0.25641, threeStar: 0.02564, twoStar: 0.30769, oneStar: 0.28205 },
+                ],
+            },
+            shiny: {
+                probability: 0.0833,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        shinyDouble: 0.00333,
+                        shiny: 0.00714,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01666,
+                        threeDiamond: 0.04952,
+                        twoDiamond: 0.89,
+                    },
+                    {
+                        crown: 0.0016,
+                        shinyDouble: 0.01333,
+                        shiny: 0.02857,
+                        threeStar: 0.00888,
+                        twoStar: 0.02,
+                        oneStar: 0.10288,
+                        fourDiamond: 0.06664,
+                        threeDiamond: 0.1981,
+                        twoDiamond: 0.56,
+                    },
+                    // Sixth card - specific cards only
+                    {
+                        oneStar: {
+                            "Magby": 0.129,
+                        },
+                        threeDiamond: {
+                            "Magby": 0.29033,
+                            "Smoochum": 0.29033,
+                            "Tyrogue": 0.29033,
+                        },
+                    }
+                ]
+            }
+        }
+    },
+    "a4l": {
+        name: "Wisdom of Sea and Sky (Lugia) (A4)",
+        packTypes: {
+            regular: {
+                probability: 0.91620,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        shinyDouble: 0.00333,
+                        shiny: 0.00714,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01666,
+                        threeDiamond: 0.04952,
+                        twoDiamond: 0.89,
+                    },
+                    {
+                        crown: 0.0016,
+                        shinyDouble: 0.01333,
+                        shiny: 0.02857,
+                        threeStar: 0.00888,
+                        twoStar: 0.02,
+                        oneStar: 0.10288,
+                        fourDiamond: 0.06664,
+                        threeDiamond: 0.1981,
+                        twoDiamond: 0.56,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.02564, shinyDouble: 0.10256, shiny: 0.25641, threeStar: 0.02564, twoStar: 0.30769, oneStar: 0.28205 },
+                    { crown: 0.02564, shinyDouble: 0.10256, shiny: 0.25641, threeStar: 0.02564, twoStar: 0.30769, oneStar: 0.28205 },
+                    { crown: 0.02564, shinyDouble: 0.10256, shiny: 0.25641, threeStar: 0.02564, twoStar: 0.30769, oneStar: 0.28205 },
+                    { crown: 0.02564, shinyDouble: 0.10256, shiny: 0.25641, threeStar: 0.02564, twoStar: 0.30769, oneStar: 0.28205 },
+                    { crown: 0.02564, shinyDouble: 0.10256, shiny: 0.25641, threeStar: 0.02564, twoStar: 0.30769, oneStar: 0.28205 },
+                ],
+            },
+            shiny: {
+                probability: 0.0833,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        shinyDouble: 0.00333,
+                        shiny: 0.00714,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01666,
+                        threeDiamond: 0.04952,
+                        twoDiamond: 0.89,
+                    },
+                    {
+                        crown: 0.0016,
+                        shinyDouble: 0.01333,
+                        shiny: 0.02857,
+                        threeStar: 0.00888,
+                        twoStar: 0.02,
+                        oneStar: 0.10288,
+                        fourDiamond: 0.06664,
+                        threeDiamond: 0.1981,
+                        twoDiamond: 0.56,
+                    },
+                    // Sixth card - specific cards only
+                    {
+                        oneStar: {
+                            "Pichu": 0.129,
+                        },
+                        threeDiamond: {
+                            "Pichu": 0.29033,
+                            "Cleffa": 0.29033,
+                            "Elekid": 0.29033,
+                        },
+                    }
+                ]
+            }
+        }
+    },
 };

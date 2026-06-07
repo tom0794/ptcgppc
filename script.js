@@ -68,18 +68,42 @@ function formatPercent(value) {
     return `${(value * 100).toFixed(2)}%`;
 }
 
-// Calculate P(at least one) for a single rarity across all slots of one packType
+// Check if a slot defines specific cards (not just rarity percentages)
+function isCardSpecificSlot(slot) {
+    return Object.values(slot).every(v => typeof v === "object" && v !== null);
+}
+
+// Extract rarity odds from a potentially card-specific slot
+function extractRarityOdds(slot) {
+    const rarityOdds = {};
+    
+    for (const [key, value] of Object.entries(slot)) {
+        if (typeof value === "number") {
+            // Normal rarity slot: { oneStar: 0.05, threeDiamond: 0.10 }
+            rarityOdds[key] = value;
+        } else if (typeof value === "object" && value !== null) {
+            // Card-specific slot: { oneStar: { "Magby": 0.129, ... }, ... }
+            const cardProbs = Object.values(value);
+            rarityOdds[key] = cardProbs.reduce((sum, p) => sum + p, 0);
+        }
+    }
+    
+    return rarityOdds;
+}
+
 function atLeastOneInPackTypeForRarity(packData, rarity) {
-    // packData.slots is an array of slot-prob objects
     let noRarityProb = 1;
+    
     for (const slot of packData.slots) {
-        const slotProb = slot[rarity] || 0;
+        const rarityOdds = extractRarityOdds(slot);
+        const slotProb = rarityOdds[rarity] || 0;
         noRarityProb *= (1 - slotProb);
     }
+    
     return 1 - noRarityProb;
 }
 
-// Calculate odds to pull a specific card across pack types and slots
+// Calculate odds for a specific card (handles card-specific slots)
 function calculateCardPullOdds(seriesKey, cardId) {
     if (!packSeries[seriesKey] || !cardDatabase[cardId]) return 0;
 
@@ -93,13 +117,25 @@ function calculateCardPullOdds(seriesKey, cardId) {
 
     for (const [, packData] of Object.entries(series.packTypes)) {
         const packProb = packData.probability;
-
-        // compute probability of at least one of this specific card for this packType
         let noCardProb = 1;
+
         for (const slot of packData.slots) {
-            const rarityOdds = slot[card.rarity] || 0;
-            const slotCardOdds = rarityOdds * cardProbWithinRarity;
-            noCardProb *= (1 - slotCardOdds);
+            if (isCardSpecificSlot(slot)) {
+                // Card-specific slot: check if this card is in it
+                const cardRarityProbs = slot[card.rarity];
+                if (cardRarityProbs && cardRarityProbs[card.name]) {
+                    const slotCardOdds = cardRarityProbs[card.name];
+                    noCardProb *= (1 - slotCardOdds);
+                } else {
+                    // Card not in this slot, so can't pull it here
+                    noCardProb *= 1;
+                }
+            } else {
+                // Normal rarity slot
+                const rarityOdds = slot[card.rarity] || 0;
+                const slotCardOdds = rarityOdds * cardProbWithinRarity;
+                noCardProb *= (1 - slotCardOdds);
+            }
         }
 
         const atLeastOneProb = 1 - noCardProb;

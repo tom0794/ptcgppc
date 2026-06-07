@@ -9,7 +9,10 @@ const setsByKey = {
     a2b: a2b,
     a3l: a3l,
     a3s: a3s,
-    // add more sets here
+    a3a: a3a,
+    a3b: a3b,
+    a4h: a4h,
+    a4l: a4l,
 };
 
 const cardDatabase = Object.entries(setsByKey).reduce((result, [setKey, setCards]) => {
