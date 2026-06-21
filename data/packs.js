@@ -1195,4 +1195,106 @@ const packSeries = {
             }
         }
     },
+    "b2b": {
+        name: "Mega Shine (B2b)",
+        packTypes: {
+            regular: {
+                probability: 0.94706,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.00160,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.11111, threeStar: 0.05555, twoStar: 0.50000, oneStar: 0.33333 },
+                    { crown: 0.11111, threeStar: 0.05555, twoStar: 0.50000, oneStar: 0.33333 },
+                    { crown: 0.11111, threeStar: 0.05555, twoStar: 0.50000, oneStar: 0.33333 },
+                    { crown: 0.11111, threeStar: 0.05555, twoStar: 0.50000, oneStar: 0.33333 },
+                    { crown: 0.11111, threeStar: 0.05555, twoStar: 0.50000, oneStar: 0.33333 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.25420,
+                        shiny: 0.68180,
+                        threeStar: 0.06400
+                    }
+                ]
+            },
+            themedRare: {
+                probability: 0.00005,
+                slots: [
+                    {
+                        shinyDouble: {
+                            "Mega Slowbro ex": 1.0,
+                        },
+                    },
+                    {
+                        shinyDouble: {
+                            "Mega Manectric ex": 1.0,
+                        },
+                    },
+                    {
+                        shinyDouble: {
+                            "Mega Scizor ex": 1.0,
+                        },
+                    },
+                    {
+                        shinyDouble: {
+                            "Mega Charizard ex": 1.0,
+                        },
+                    },
+                    {
+                        shinyDouble: {
+                            "Mega Gengar ex": 1.0,
+                        },
+                    },
+                ]
+            }
+        }
+    },
 };
