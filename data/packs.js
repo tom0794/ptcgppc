@@ -769,4 +769,674 @@ const packSeries = {
             }
         }
     },
+    "b1al": {
+        name: "Mega Risisng (Altaria) (B1)",
+        packTypes: {
+            regular: {
+                probability: 0.94711,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.31820,
+                        shiny: 0.68180,
+                    }
+                ]
+            }
+        }
+    },
+    "b1bl": {
+        name: "Mega Risisng (Blaziken) (B1)",
+        packTypes: {
+            regular: {
+                probability: 0.94711,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.31820,
+                        shiny: 0.68180,
+                    }
+                ]
+            }
+        }
+    },
+    "b1gy": {
+        name: "Mega Risisng (Gyarados) (B1)",
+        packTypes: {
+            regular: {
+                probability: 0.94711,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                    { crown: 0.04761, threeStar: 0.04761, twoStar: 0.52380, oneStar: 0.38095 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.31820,
+                        shiny: 0.68180,
+                    }
+                ]
+            }
+        }
+    },
+    "b1a": {
+        name: "Crimson Blaze (B1a)",
+        packTypes: {
+            regular: {
+                probability: 0.94711,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.00158,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.6,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.10000, threeStar: 0.05000, twoStar: 0.55000, oneStar: 0.30000 },
+                    { crown: 0.10000, threeStar: 0.05000, twoStar: 0.55000, oneStar: 0.30000 },
+                    { crown: 0.10000, threeStar: 0.05000, twoStar: 0.55000, oneStar: 0.30000 },
+                    { crown: 0.10000, threeStar: 0.05000, twoStar: 0.55000, oneStar: 0.30000 },
+                    { crown: 0.10000, threeStar: 0.05000, twoStar: 0.55000, oneStar: 0.30000 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.31820,
+                        shiny: 0.68180,
+                    }
+                ]
+            }
+        }
+    },
+    "b2": {
+        name: "Fantastical Parade (B2)",
+        packTypes: {
+            regular: {
+                probability: 0.94711,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.00160,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.31820,
+                        shiny: 0.68180,
+                    }
+                ]
+            }
+        }
+    },
+    "b2a": {
+        name: "Paldean Wonders (B2a)",
+        packTypes: {
+            regular: {
+                probability: 0.94711,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.00160,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.08333, threeStar: 0.04166, twoStar: 0.62500, oneStar: 0.25000 },
+                    { crown: 0.08333, threeStar: 0.04166, twoStar: 0.62500, oneStar: 0.25000 },
+                    { crown: 0.08333, threeStar: 0.04166, twoStar: 0.62500, oneStar: 0.25000 },
+                    { crown: 0.08333, threeStar: 0.04166, twoStar: 0.62500, oneStar: 0.25000 },
+                    { crown: 0.08333, threeStar: 0.04166, twoStar: 0.62500, oneStar: 0.25000 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.31820,
+                        shiny: 0.68180,
+                    }
+                ]
+            }
+        }
+    },
+    "b2b": {
+        name: "Mega Shine (B2b)",
+        packTypes: {
+            regular: {
+                probability: 0.94706,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.00160,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.11111, threeStar: 0.05555, twoStar: 0.50000, oneStar: 0.33333 },
+                    { crown: 0.11111, threeStar: 0.05555, twoStar: 0.50000, oneStar: 0.33333 },
+                    { crown: 0.11111, threeStar: 0.05555, twoStar: 0.50000, oneStar: 0.33333 },
+                    { crown: 0.11111, threeStar: 0.05555, twoStar: 0.50000, oneStar: 0.33333 },
+                    { crown: 0.11111, threeStar: 0.05555, twoStar: 0.50000, oneStar: 0.33333 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.25420,
+                        shiny: 0.68180,
+                        threeStar: 0.06400
+                    }
+                ]
+            },
+            themedRare: {
+                probability: 0.00005,
+                slots: [
+                    {
+                        shinyDouble: {
+                            "Mega Slowbro ex": 1.0,
+                        },
+                    },
+                    {
+                        shinyDouble: {
+                            "Mega Manectric ex": 1.0,
+                        },
+                    },
+                    {
+                        shinyDouble: {
+                            "Mega Scizor ex": 1.0,
+                        },
+                    },
+                    {
+                        shinyDouble: {
+                            "Mega Charizard ex": 1.0,
+                        },
+                    },
+                    {
+                        shinyDouble: {
+                            "Mega Gengar ex": 1.0,
+                        },
+                    },
+                ]
+            }
+        }
+    },
+    "b3": {
+        name: "Pulsing Aura (B3)",
+        packTypes: {
+            regular: {
+                probability: 0.94711,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.00160,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.31820,
+                        shiny: 0.68180,
+                    }
+                ]
+            }
+        }
+    },
+    "b3a": {
+        name: "Paradox Drive (B3a)",
+        packTypes: {
+            regular: {
+                probability: 0.94711,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.00160,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.09523, threeStar: 0.04761, twoStar: 0.57142, oneStar: 0.28571 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.31820,
+                        shiny: 0.68180,
+                    }
+                ]
+            }
+        }
+    },
 };
