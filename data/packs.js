@@ -1439,4 +1439,75 @@ const packSeries = {
             }
         }
     },
+    "b3b": {
+        name: "Everyday Wonders (B3b)",
+        packTypes: {
+            regular: {
+                probability: 0.94711,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.00160,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                ],
+            },
+            rare: {
+                probability: 0.0005,
+                slots: [
+                    { crown: 0.09523, threeStar: 0.04761, twoStar: 0.57142, oneStar: 0.28571 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                ],
+            },
+            shiny: {
+                probability: 0.05238,
+                slots: [
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    { oneDiamond: 1.0 },
+                    {
+                        crown: 0.0004,
+                        threeStar: 0.00222,
+                        twoStar: 0.005,
+                        oneStar: 0.02572,
+                        fourDiamond: 0.01667,
+                        threeDiamond: 0.05,
+                        twoDiamond: 0.89999,
+                    },
+                    {
+                        crown: 0.0016,
+                        threeStar: 0.00889,
+                        twoStar: 0.02,
+                        oneStar: 0.10286,
+                        fourDiamond: 0.06667,
+                        threeDiamond: 0.2000,
+                        twoDiamond: 0.59998,
+                    },
+                    {
+                        shinyDouble: 0.31820,
+                        shiny: 0.68180,
+                    }
+                ]
+            }
+        }
+    },
 };
