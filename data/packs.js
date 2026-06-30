@@ -1451,7 +1451,7 @@ const packSeries = {
                     {
                         crown: 0.0004,
                         threeStar: 0.00222,
-                        twoStar: 0.005,
+                        twoStar: 0.00499,
                         oneStar: 0.02572,
                         fourDiamond: 0.01667,
                         threeDiamond: 0.05,
@@ -1471,11 +1471,11 @@ const packSeries = {
             rare: {
                 probability: 0.0005,
                 slots: [
-                    { crown: 0.09523, threeStar: 0.04761, twoStar: 0.57142, oneStar: 0.28571 },
-                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
-                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
-                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
-                    { crown: 0.03921, threeStar: 0.03921, twoStar: 0.45098, oneStar: 0.47058 },
+                    { crown: 0.08695, threeStar: 0.04347, twoStar: 0.52173, oneStar: 0.34782 },
+                    { crown: 0.08695, threeStar: 0.04347, twoStar: 0.52173, oneStar: 0.34782 },
+                    { crown: 0.08695, threeStar: 0.04347, twoStar: 0.52173, oneStar: 0.34782 },
+                    { crown: 0.08695, threeStar: 0.04347, twoStar: 0.52173, oneStar: 0.34782 },
+                    { crown: 0.08695, threeStar: 0.04347, twoStar: 0.52173, oneStar: 0.34782 },
                 ],
             },
             shiny: {

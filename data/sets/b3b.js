@@ -542,85 +542,85 @@ const b3b = {
   "91": {
     "number": "91",
     "name": "Caterpie",
-    "rarity": "oneStar",
+    "rarity": "shiny",
     "series": "b3b"
   },
   "92": {
     "number": "92",
     "name": "Metapod",
-    "rarity": "oneStar",
+    "rarity": "shiny",
     "series": "b3b"
   },
   "93": {
     "number": "93",
     "name": "Butterfree",
-    "rarity": "oneStar",
+    "rarity": "shiny",
     "series": "b3b"
   },
   "94": {
     "number": "94",
     "name": "Mareep",
-    "rarity": "oneStar",
+    "rarity": "shiny",
     "series": "b3b"
   },
   "95": {
     "number": "95",
     "name": "Flaaffy",
-    "rarity": "oneStar",
+    "rarity": "shiny",
     "series": "b3b"
   },
   "96": {
     "number": "96",
     "name": "Ampharos",
-    "rarity": "oneStar",
+    "rarity": "shiny",
     "series": "b3b"
   },
   "97": {
     "number": "97",
     "name": "Slowbro",
-    "rarity": "oneStar",
+    "rarity": "shiny",
     "series": "b3b"
   },
   "98": {
     "number": "98",
     "name": "Kangaskhan",
-    "rarity": "oneStar",
+    "rarity": "shiny",
     "series": "b3b"
   },
   "99": {
     "number": "99",
     "name": "Ditto",
-    "rarity": "oneStar",
+    "rarity": "shiny",
     "series": "b3b"
   },
   "100": {
     "number": "100",
     "name": "Snorlax",
-    "rarity": "oneStar",
+    "rarity": "shiny",
     "series": "b3b"
   },
   "101": {
     "number": "101",
     "name": "Mega Gyarados ex",
-    "rarity": "twoStar",
+    "rarity": "shinyDouble",
     "series": "b3b"
   },
   "102": {
     "number": "102",
     "name": "Vaporeon ex",
-    "rarity": "twoStar",
+    "rarity": "shinyDouble",
     "series": "b3b"
   },
   "103": {
     "number": "103",
     "name": "Mega Ampharos ex",
-    "rarity": "twoStar",
+    "rarity": "shinyDouble",
     "series": "b3b"
   },
   "104": {
     "number": "104",
     "name": "Indeedee ex",
-    "rarity": "twoStar",
+    "rarity": "shinyDouble",
     "series": "b3b"
   },
   "105": {
