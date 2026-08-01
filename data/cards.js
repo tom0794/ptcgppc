@@ -24,6 +24,7 @@ const setsByKey = {
     b3: b3,
     b3a: b3a,
     b3b: b3b,
+    b4: b4,
 };
 
 const cardDatabase = Object.entries(setsByKey).reduce((result, [setKey, setCards]) => {
